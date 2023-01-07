@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "Indien ingesteld op true, worden beacons elke seconde verzonden. Indien ingesteld op false, is het interval 100 ms. \ nEen langer interval betekent meer stabiliteit en minder spamming van pakketten, maar het kan langer duren voordat de clients de ssids bij het scannen. ",
 	"setting_randomTX": "Maakt willekeurig zendvermogen mogelijk voor het verzenden van baken- en sonde-verzoekframes.",
 	"setting_probesPerSSID": "Hoeveel testverzoekframes worden verzonden voor elke SSID.",
-	"setting_lang": "Standaardtaal voor de webinterface. \ nZorg ervoor dat het taalbestand bestaat!",
-	"repeater": "repeater"
+	"setting_lang": "Standaardtaal voor de webinterface. \ nZorg ervoor dat het taalbestand bestaat!"
 }

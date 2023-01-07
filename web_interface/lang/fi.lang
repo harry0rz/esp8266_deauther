@@ -70,6 +70,5 @@
   "setting_beaconInterval": "Jos asetetaan true, lähettimet lähetetään joka sekunti. Jos asetuksena on väärä, aikaväli on 100 ms. \n Pidempi aikaväli merkitsee pakettien vakautta ja vähemmän roskapostia, mutta saattaa kestää kauemmin, kunnes asiakkaat löytävät ssidit skannauksen aikana.",
   "setting_randomTX": "Mahdollistaa satunnaistetun lähetystehon lähettämällä majakka- ja koetinkyselykehyksiä.",
   "setting_probesPerSSID": "Kuinka monta koetinkyselyn kehystä lähetetään jokaiselle SSID: lle",
-  "setting_lang": "Web-käyttöliittymän oletuskieli. \n Varmista, että kielitiedosto on olemassa!",
-	"repeater": "repeater"
+  "setting_lang": "Web-käyttöliittymän oletuskieli. \n Varmista, että kielitiedosto on olemassa!"
 }

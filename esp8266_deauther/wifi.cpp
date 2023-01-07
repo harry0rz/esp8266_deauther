@@ -295,9 +295,6 @@ namespace wifi {
             server.on("/settings.html", HTTP_GET, []() {
                 sendProgmem(settingshtml, sizeof(settingshtml), W_HTML);
             });
-            server.on("/repeater.html", HTTP_GET, []() {
-                sendProgmem(settingshtml, sizeof(repeaterhtml), W_HTML);
-            });
             server.on("/style.css", HTTP_GET, []() {
                 sendProgmem(stylecss, sizeof(stylecss), W_CSS);
             });
@@ -315,9 +312,6 @@ namespace wifi {
             });
             server.on("/js/settings.js", HTTP_GET, []() {
                 sendProgmem(settingsjs, sizeof(settingsjs), W_JS);
-            });
-            server.on("/repeater.js", HTTP_GET, []() {
-                sendProgmem(settingshtml, sizeof(repeaterjs), W_JS);
             });
             server.on("/lang/hu.lang", HTTP_GET, []() {
                 sendProgmem(hulang, sizeof(hulang), W_JSON);
@@ -450,14 +444,6 @@ namespace wifi {
             prntln(W_STOPPED_AP);
             mode = wifi_mode_t::st;
         }
-    }
-
-    void startST() {
-
-    }
-    
-    void startST() {
-        
     }
 
     void resumeAP() {

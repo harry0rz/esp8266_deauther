@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "启用时，每隔1s会发送一次信标帧(Beacon)。关闭时，时间间隔会变成100ms。\n一个长的时间间隔意味着更稳定和更高效的数据包，但在扫描客户端和接入点时会花费您更多时间。",
 	"setting_randomTX": "启用随机传输功率来发送信标帧和探测请求帧。",
 	"setting_probesPerSSID": "探测攻击模式下发送给每个SSID的探测请求帧。",
-	"setting_lang": "Web界面的默认语言。\n请确认语言文件是否存在！",
-	"repeater": "中继器",
+	"setting_lang": "Web界面的默认语言。\n请确认语言文件是否存在！"
 }

@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "Hvis sat til sandt, beacons sendes ud hvert sekund. Hvis sat til falsk, vil intervallet være 100ms.\nEt længere interval betyder mere stabilitet og mindre spamming, men enhederk an være længere om at se dit SSID.",
 	"setting_randomTX": "Aktivere tilfældig transmissions kraft for udsendelse af beacon og probe forspørgelses pakker.",
 	"setting_probesPerSSID": "Hvor mange probe forspørgselser pakker er sendt for hver SSID.",
-	"setting_lang": "Standart sprog for web brugerfladen.\nVær sikker på sprog filen eksitere!",
-	"repeater": "repeater"
+	"setting_lang": "Standart sprog for web brugerfladen.\nVær sikker på sprog filen eksitere!"
 }

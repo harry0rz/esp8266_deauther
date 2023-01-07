@@ -70,6 +70,5 @@
   "setting_beaconInterval": "Actif: envoie des balises toutes les secondes. Inactif: envoie des balises tous les 100ms.\nPlus l'intervalle est grand plus l'ESP reste stable, et mois les effets de l'attaque se font sentir.",
   "setting_randomTX": "Fait varier la puissance de transmission en mode balise, sonde ou demande de sonde.",
   "setting_probesPerSSID": "Combien de demandes de sondes sont envoyées pour chaque SSID.",
-  "setting_lang": "Langage par défaut dans l'interface web.\nAssurez vous que le fichier de langage existe !",
-	"repeater": "repeater"
+  "setting_lang": "Langage par défaut dans l'interface web.\nAssurez vous que le fichier de langage existe !"
 }

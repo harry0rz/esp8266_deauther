@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "Dacă este setat corect, balize vor fi trimise în fiecare secundă. Dacă este setat la false, intervalul va fi de 100ms.\nUn interval mai lung înseamnă mai multă stabilitate și mai puțin spam de pachete, dar ar putea dura mai mult până când clienții găsesc ssids atunci când scanează.",
 	"setting_randomTX": "Permite puterea de transmisie randomizată pentru trimiterea cadrelor de baliză și a sondei.",
 	"setting_probesPerSSID": "Câte cadre de solicitare a sondei sunt trimise pentru fiecare SSID.",
-	"setting_lang": "Limba prestabilită pentru interfața web.\nAsigurați-vă că fișierul de limbă există!",
-	"repeater": "repeater"
+	"setting_lang": "Limba prestabilită pentru interfața web.\nAsigurați-vă că fișierul de limbă există!"
 }

@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "Jika disetel benar, beacon akan dikirim setiap detik. Jika disetel ke false, interval akan menjadi 100 md.\nInterval yang lebih lama berarti lebih banyak stabilitas dan lebih sedikit spamming paket, tetapi bisa memakan waktu lebih lama hingga klien menemukan ssids saat memindai.",
 	"setting_randomTX": "Mengaktifkan daya transmisi acak untuk mengirimkan bingkai permintaan beacon dan probe.",
 	"setting_probesPerSSID": "Berapa banyak frame permintaan probe yang dikirim untuk setiap SSID.",
-	"setting_lang": "Bahasa default untuk antarmuka web.\nPastikan file bahasa ada!",
-	"repeater": "repeater"
+	"setting_lang": "Bahasa default untuk antarmuka web.\nPastikan file bahasa ada!"
 }

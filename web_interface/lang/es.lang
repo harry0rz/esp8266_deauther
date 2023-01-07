@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "Habilitado los Beacons serán enviados cada segundo. Deshabilitado, el intervalo será de 100 ms.\nUn intervalo más largo significa mayor estabilidad y menos 'spammeo' de los paquetes, pero podría nesecitar más tiempo hasta que los clientes encuentren los SSID durante el escaneo.",
 	"setting_randomTX": "Habilita la potencia de transmisión aleatoria para el envío de peticiones de marcos 'Beacons' y 'Probe'.",
 	"setting_probesPerSSID": "Cantidad de marcos de peticiones 'Probe' enviados para cada SSID.",
-	"setting_lang": "Idioma predefinido para la interfaz web.\n¡Verifica que el archivo del idioma exista previamente!",
-	"repeater": "repeater"
+	"setting_lang": "Idioma predefinido para la interfaz web.\n¡Verifica que el archivo del idioma exista previamente!"
 }

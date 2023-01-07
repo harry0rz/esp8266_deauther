@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "true로 설정하면 Beacon이 매초마다 전송됩니다. false로 설정하면 간격은 100ms입니다.\n더 긴 간격은 더 많은 안정성과 적은 패킷공격을 의미하지만 클라이언트가 스캔할 때 SSID를 찾을 때까지 더 오래 시간이 걸릴 수 있습니다.",
 	"setting_randomTX": "Beacon또는 Probe 요청 프레임을 보내기 위해 무작위 전송 전력을 활성화합니다.",
 	"setting_probesPerSSID": "각 SSID에 대해 전송된 Probe 요청 프레임 수입니다.",
-	"setting_lang": "웹인터페이스 언어를 선택 할 수 있습니다.\n언어파일이 있는지 확인해주세요.",
-	"repeater": "repeater"
+	"setting_lang": "웹인터페이스 언어를 선택 할 수 있습니다.\n언어파일이 있는지 확인해주세요."
 }

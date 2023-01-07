@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "Se impostato vero, i beacon verranno inviati ogni secondo. Se impostato su falso, l'intervallo sarà 100 ms.\nUn intervallo più lungo significa maggiore stabilità e meno spamming dei pacchetti, ma potrebbe richiedere più tempo fino a quando i client trovano gli SSID durante la scansione.",
 	"setting_randomTX": "Abilita potenza di trasmissione randomizzata per l'invio di richieste frames di beacon e probe.",
 	"setting_probesPerSSID": "Quanti frames di richiesta probe vengono inviati per ciascun SSID.",
-	"setting_lang": "Lingua predefinita per l'interfaccia Web.\nAssicurarsi che il file della lingua esista!",
-	"repeater": "repeater"
+	"setting_lang": "Lingua predefinita per l'interfaccia Web.\nAssicurarsi che il file della lingua esista!"
 }

@@ -70,6 +70,5 @@
 	"setting_beaconInterval": "Ha igaz, a beacon frame-ek másodpercenként kerülnek kiküldésre. Ha hamisra állítja, az intervallum 100 ms lesz.\nHosszabb intervallum nagyobb stabilitást és kevesebb csomag spam-et jelent, de hosszabb ideig tarthat, amíg a kliensek megtalálják az SSID-ket szkennelés során.",
 	"setting_randomTX": "Engedélyezi a véletlenszerű átviteli teljesítményt a beacon, és probe request frame-ek küldéséhez.",
 	"setting_probesPerSSID": "Ennyi probe request frame lett elküldve minden egyes SSID-nek.",
-	"setting_lang": "A webes felület alapértelmezett nyelve.\nGyőződjön meg arról, hogy létezik a nyelvi fájl!",
-	"repeater": "repeater"
+	"setting_lang": "A webes felület alapértelmezett nyelve.\nGyőződjön meg arról, hogy létezik a nyelvi fájl!"
 }

@@ -440,7 +440,7 @@
 #endif /* ifndef AP_SSID */
 
 #ifndef AP_PASSWD
-  #define AP_PASSWD "Harr7"
+  #define AP_PASSWD "Harr74ck"
 #endif /* ifndef AP_PASSWD */
 
 #ifndef AP_HIDDEN
@@ -598,7 +598,7 @@
 
 // ===== Web ===== //
 #ifndef WEB_IP_ADDR
-  #define WEB_IP_ADDR (192, 168, 4, 4)
+  #define WEB_IP_ADDR (192, 168, 4, 1)
 #endif // ifndef WEB_IP_ADDR
 
 #ifndef WEB_URL
@@ -607,7 +607,7 @@
 
 // ======== CONSTANTS ========== //
 // Do not change these values unless you know what you're doing!
-#define DEAUTHER_VERSION "2.6.1"
+#define DEAUTHER_VERSION "1.0.0"
 #define DEAUTHER_VERSION_MAJOR 2
 #define DEAUTHER_VERSION_MINOR 6
 #define DEAUTHER_VERSION_REVISION 1

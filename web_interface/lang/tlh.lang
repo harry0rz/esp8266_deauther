@@ -70,6 +70,5 @@
   "setting_beaconInterval": "vaj HIjmeH teH, ngeH beacons Hoch cha'DIch. tlhoy HIjmeH ngeb, interval 100ms.na nI'qu' neH stability 'ej qup spamming packets qej interval 'ach 'oH laH tlhap nI'qu' until ssids vItu' clients HeghDI' Hotlh.",
   "setting_randomTX": "HoS ngeH beacon 'ej request Dalbogh nejwI' enables randomized transmission.",
   "setting_probesPerSSID": "ngeH 'ar nejwI' request Dalbogh Hoch ssid.",
-  "setting_lang": "'ej bebvo' interface. nbe be nIv'e' Hol teywI' Hol default!",
-	"repeater": "repeater"
+  "setting_lang": "'ej bebvo' interface. nbe be nIv'e' Hol teywI' Hol default!"
 }

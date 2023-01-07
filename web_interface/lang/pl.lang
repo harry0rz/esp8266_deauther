@@ -69,6 +69,5 @@
 	"setting_beaconInterval": "Jeśli ustawione na true, sygnały nawigacyjne będą wysyłane co sekundę. Jeśli ustawione na false, interwał będzie wynosił 100 ms.\nDłuższy interwał oznacza większą stabilność i mniej spamowania pakietów, ale może zająć więcej czasu, zanim klienci znajdą identyfikatory SSID podczas skanowania. ",
 	"setting_randomTX": "Włącza losową moc transmisji do wysyłania ramek beacon i sondujących.",
 	"setting_probesPerSSID": "Ile ramek żądań wysyłać dla każdego SSID.",
-	"setting_lang": "Język domyślny dla strony.\nUpewnij się że plik językowy istnieje!",
-	"repeater": "repeater"
+	"setting_lang": "Język domyślny dla strony.\nUpewnij się że plik językowy istnieje!"
 }

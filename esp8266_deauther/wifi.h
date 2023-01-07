@@ -17,9 +17,5 @@ namespace wifi {
     void stopAP();
     void resumeAP();
 
-    // use STA mode
-    void startST();
-    void stopST();
-
     void update();
 }
