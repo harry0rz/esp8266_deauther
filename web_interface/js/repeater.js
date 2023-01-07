@@ -5,7 +5,6 @@ var repeaterJson = { aps: [] };
 
 function drawScan() {
 	var html;
-	var selected;
 	var width;
 	var color;
 	var macVendor;
@@ -26,14 +25,13 @@ function drawScan() {
 		+ "</tr>";
 
 	for (var i = 0; i < repeaterJson.aps.length; i++) {
-		selected = repeaterJson.aps[i][repeaterJson.aps[i].length - 1];
 		width = parseInt(repeaterJson.aps[i][3]) + 130;
 
 		if (width < 50) color = "meter_red";
 		else if (width < 70) color = "meter_orange";
 		else color = "meter_green";
 
-		html += (selected ? "<tr class='selected'>" : "<tr>")
+		html += "<tr>"
 			+ "<td class='id'>" + i + "</td>" // ID
 			+ "<td class='ssid'>" + esc(repeaterJson.aps[i][0]) + "</td>" // SSID
 			+ "<td class='ch'>" + esc(repeaterJson.aps[i][2]) + "</td>" // Ch
@@ -44,7 +42,7 @@ function drawScan() {
 			+ "<td class='mac'>" + esc(repeaterJson.aps[i][5]) + "</td>" // MAC
 			+ "<td class='vendor'>" + esc(repeaterJson.aps[i][6]) + "</td>" // Vendor
 			// Connect
-			+ "<td class='remove'><button class='red' onclick='connect(0," + i + ")'>Connect</button></td>" // Remove
+			+ "<td class='connect'><button class='green' onclick='connectwifi(" + repeaterJson.aps[i][0] + ")'>Connect</button></td>" // Connect
 			+ "</tr>";
 	}
 
@@ -100,21 +98,16 @@ function load() {
 	});
 }
 
-function connect(type, id) {
-	switch (type) {
-		case 0:
-			scanJson.aps.splice(id, 1);
-			drawScan();
-			getFile("run?cmd=remove ap " + id);
-			break;
-		case 1:
-			scanJson.stations.splice(id, 1);
-			drawScan();
-			getFile("run?cmd=remove station " + id);
-			break;
-		case 2:
-			nameJson.splice(id, 1);
-			drawNames();
-			getFile("run?cmd=remove name " + id);
-	}
+function draw(ssid) {
+	var html;
+	html = "<div class='col-12'><div class='col-6'><label for='ssid'>SSID</label></div>"
+		+ "<div class='col-6'><input type='text' id='ssid' name='ssid' placeholder='" + ssid + "' maxlength='32'></div></div>"
+		+ "<div class='col-6'><label for='password'>PASSWORD</label></div>"
+		+ "<div class='col-6'><input type='text' id='password' name='password' placeholder='PASSWORD' maxlength='32'></div></div></div>"
+
+	getE("ssidFrom").innerHTML = html;
+}
+
+function connectwifi(ssid) {
+	console.log(ssid);
 }

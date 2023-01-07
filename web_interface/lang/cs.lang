@@ -71,6 +71,6 @@
 	"setting_randomTX": "Aktivuje náhodný vysílací výkon pro každý packet.",
 	"setting_probesPerSSID": "Kolik probe paketů bude odesláno k SSID.",
 	"setting_lang": "Výchozí jazyk pro webové rozhraní.\nUjistěte se, že definiční soubor jazyka existuje!",
-	"repeater": "中继器",
+	"repeater": "repeater"
 }
 
